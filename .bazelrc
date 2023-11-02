@@ -1,0 +1,9 @@
+build  --experimental_use_hermetic_linux_sandbox
+build  --sandbox_add_mount_pair=/bin
+build  --sandbox_add_mount_pair=/dev
+build  --sandbox_add_mount_pair=/etc
+build  --sandbox_add_mount_pair=/lib
+build  --sandbox_add_mount_pair=/lib32
+build  --sandbox_add_mount_pair=/lib64
+build  --sandbox_add_mount_pair=/proc
+build  --sandbox_add_mount_pair=/usr
